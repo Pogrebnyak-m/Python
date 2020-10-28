@@ -20,11 +20,11 @@ ws.column_dimensions['B'].width = 21
 ws.column_dimensions['C'].width = 13
 ws.column_dimensions['D'].width = 11
 
-ft_h = Font(name='Calibri Light',color='0033CCCC', size=20)
-x1.font = ft_h
-x2.font = ft_h
-x3.font = ft_h
-x4.font = ft_h
+style = Font(name='Calibri Light',color='0033CCCC', size=20)
+x1.font = style
+x2.font = style
+x3.font = style
+x4.font = style
 
 wb1=openpyxl.load_workbook('surnames.xlsx')
 ws0=wb1.active
@@ -55,11 +55,11 @@ ws2.column_dimensions['A'].width = 20
 ws2.column_dimensions['B'].width = 20
 ws2.column_dimensions['C'].width = 15
 
-ft_h = Font(name='Calibri Light',color='00003366', size=20)
+style = Font(name='Calibri Light',color='00003366', size=20)
 
-y1.font = ft_h
-y2.font = ft_h
-y3.font = ft_h
+y1.font = style
+y2.font = style
+y3.font = style
 
 wb2=openpyxl.load_workbook('surnames.xlsx')
 for i in range(0,30):
