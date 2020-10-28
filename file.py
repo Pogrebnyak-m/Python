@@ -1,6 +1,6 @@
 import openpyxl, random
 from openpyxl import Workbook
-from openpyxl.styles import Font, Color, colors
+from openpyxl.styles import Font, colors
 
 wb=Workbook()
 ws=wb.active
